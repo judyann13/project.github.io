@@ -1,0 +1,64 @@
+
+body { 
+    background-color: black;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+
+nav { 
+    background-color: black; 
+    height: 80px;
+} 
+
+/*photography definition style*/
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 95%; 
+    margin: 0 auto; 
+    padding: 20px; 
+} 
+
+article p { 
+    text-align: justify; 
+    color: white;
+} 
+
+main { 
+    flex: 2; 
+} 
+
+article { 
+    margin-bottom: 20px; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(145, 145, 145); 
+    margin-right: 10px; 
+} 
+
+/*photos style*/
+h2 {
+    color: white;
+}
+
+aside { 
+    flex: 1; 
+    background-color: black; 
+    padding: 10px; 
+} 
+
+aside img {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+footer { 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+} 
